@@ -1,0 +1,59 @@
+---
+title: "Homework #01: Data Visualization"
+subtitle: "due [date] 11:59 PM "
+author: "Your name here"
+date: ""
+output: pdf_document
+---
+
+# Load Packages
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse) 
+library(viridis)
+library(ggridges)
+``` 
+
+# Load Data
+```{r load-data, message = F}
+```
+
+
+# Exercise 1
+
+```{r ex-1}
+```
+
+# Exercise 2
+
+```{r ex-2}
+```
+
+# Exercise 3
+
+```{r ex-3}
+```
+
+# Exercise 4
+
+```{r ex-4}
+```
+
+# Exercise 5
+
+```{r ex-5}
+```
+
+# Exercise 6
+
+```{r ex-6}
+```
+
+# Exercise 7
+
+```{r ex-7}
+set.seed(18)
+anes2 <- anes %>%
+  sample_frac(.10)
+```
+
